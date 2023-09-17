@@ -1,0 +1,7 @@
+overwrite: true
+schema: 'http://localhost:6001/graphql'
+generates:
+  src/graphql/codegen/__generated__/graphql.ts:
+    plugins:
+      - 'typescript'
+      - 'typescript-resolvers'
